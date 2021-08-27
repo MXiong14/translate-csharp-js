@@ -35,6 +35,10 @@ const getAllSpells = () => {
   return spells;
 };
 
+displaySpellBook(goodBook);
+console.log("");
+displaySpellBook(evilBook);
+
 const makeGoodSpellBook = (allSpells) => {
   const goodSpellBook = {};
   goodSpellBook.title = "Good Book";
